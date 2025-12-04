@@ -16,9 +16,6 @@ spec:
     spec:
       containers:
       - name: devops-demo
-        image: <ECR_REPO_URL>:latest
+        image: IMAGE_PLACEHOLDER   # <-- IMPORTANT: keep this exact placeholder
         ports:
         - containerPort: 5000
-        env:
-        - name: ENVIRONMENT
-          value: "prod"
