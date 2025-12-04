@@ -1,0 +1,57 @@
+# -------------------------
+# PYTHON
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+env/
+.venv/
+
+# -------------------------
+# TERRAFORM
+# -------------------------
+# Local Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Terraform state files (never commit these)
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Sensitive variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform plan files
+*.tfplan
+
+# -------------------------
+# DOCKER
+# -------------------------
+*.log
+*.pid
+
+# -------------------------
+# IDE / EDITOR JUNK
+# -------------------------
+.vscode/
+.idea/
+*.swp
+
+# -------------------------
+# OS FILES
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# MISC
+# -------------------------
+*.zip
+*.tar
+*.gz
